@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/commons-codec-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/fluent-hc-4.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/httpclient-4.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/httpclient-cache-4.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/httpcore-4.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/httpmime-4.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/Performance_java/records modification/libs/org.apache.httpcomponents.httpclient_4.2.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

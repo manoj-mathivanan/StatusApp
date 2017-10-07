@@ -1,0 +1,35 @@
+GET:
+
+To get the details of all users in the DB.
+http://polar-lowlands-9405.herokuapp.com/getall
+
+To get the photo of the user from the DB.
+http://polar-lowlands-9405.herokuapp.com/getphoto
+Headers:: number:919916726325
+
+http://polar-lowlands-9405.herokuapp.com/db
+
+
+
+POST:
+To register a user:
+http://polar-lowlands-9405.herokuapp.com/createuser
+CREATE TABLE IF NOT EXISTS contacts (name varchar(50), number varchar(20), status varchar(250),statusupdated varchar(100), photo bytea, photoupdated varchar(100),email varchar(100),password varchar(100))
+Headers:: name:
+number:
+email:
+password:
+
+To update photo:
+http://polar-lowlands-9405.herokuapp.com/updatephoto
+Headers:: number: 919916726325
+body:: picture
+
+To update status:
+http://polar-lowlands-9405.herokuapp.com/updatestatus
+Headers:: status:
+number:
+
+To get details of all:
+http://polar-lowlands-9405.herokuapp.com/getdetails
+{contacts:[{"number":"919916726325","statusupdated":"0","photoupdated","0"}]}
